@@ -8,6 +8,12 @@ class AxiosCacheInterceptor {
   async requestHandler(config) {
     const cacheKey = config.url;
 
+    if (config.clearCache) {
+      console.log(`Clearing cache for ${cacheKey}`);
+      this.cache.delete(cacheKey);
+      return;
+    }
+
     if (this.cache.has(cacheKey)) {
       const { data, timestamp } = this.cache.get(cacheKey);
       const currentTime = Date.now();
