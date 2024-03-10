@@ -1,20 +1,23 @@
 {
     "name": "cache-interceptor-axios",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "description": "An Axios caching interceptor for HTTP requests",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
-      "axios",
-      "cache",
-      "interceptor"
+        "axios",
+        "cache",
+        "interceptor"
     ],
     "author": "brainduck",
     "license": "MIT",
     "dependencies": {
-      "axios": "^0.24.0"
-    }
-  }
-  
+        "axios": "^0.24.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/brainduck/cache-interceptor-axios"
+    },
+}
