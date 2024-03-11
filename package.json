@@ -18,6 +18,10 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/brainduck/cache-interceptor-axios"
-    }
+      "url": "https://github.com/brainduck/cache-interceptor-axios.git"
+    },
+    "bugs": {
+        "url": "https://github.com/brainduck/cache-interceptor-axios/issues"
+    },
+    "readme": "https://github.com/brainduck/cache-interceptor-axios#readme"
 }
